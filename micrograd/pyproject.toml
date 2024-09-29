@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "micrograd"
+version = "0.1.0"
+description = "An exploration of Andrej Karpathy's micrograd package."
+authors = ["Ryan Partridge <rpartridge101@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+pydantic = "^2.9.2"
+opencv-python = "^4.10.0.84"
+
+
+[tool.poetry.group.notebook.dependencies]
+notebook = "^7.2.2"
+ipywidgets = "^8.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
