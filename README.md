@@ -1,2 +1,3 @@
-# simworld
-A 2D isometric simulated world of LLM agents living their lives like humans
+# DL Experiments
+
+A repository dedicated to Deep Learning experiments.
